@@ -43,13 +43,13 @@ class alumno(object):  # Declaramos la clase principal Perros
 
 
 # Instanciamos
-Tomas = alumno('Manuel', 27)
-print(Tomas.nombre)  # Imprimimos el nombre de Tomas. Se hace a través de getter
+alumnorec = alumno('Manuel', 27)
+print(alumnorec.nombre)  # Imprimimos el nombre de Tomas. Se hace a través de getter
 # Que en este caso como esta luego de property lo toma como el primer método..
-Tomas.nombre = 'Pepe'  # Cambiamos el atributo nombre que se hace a través de setter
+alumnorec.nombre = 'Pepe'  # Cambiamos el atributo nombre que se hace a través de setter
   # Volvemos a imprimir
-Tomas.edad = 28
-del Tomas.nombre  # Borramos el nombre utilizando deleter
+alumnorec.edad = 28
+del alumnorec.nombre  # Borramos el nombre utilizando deleter
 
 
 
